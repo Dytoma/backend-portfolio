@@ -9,16 +9,6 @@ export default {
             type: 'string'
         },
         {
-            name: 'borderColor',
-            title: 'BorderColor',
-            type: 'string'
-        },
-        {
-            name: 'expertise',
-            title: 'Expertise',
-            type: 'string'
-        },
-        {
             name: 'icon',
             title: 'Icon',
             type: 'image',

@@ -24,12 +24,29 @@ export default {
             type: 'string'
         },
         {
-            name: 'imgUrl',
-            title: 'Image Url',
-            type: 'image',
-            options: {
-                hotspot: true,
-            }
+            name: 'images',
+            title: 'Images Url',
+            type: 'array',
+            of: [{
+                name: 'image',
+                type: 'image',
+                options: {
+                    hotspot: true,
+                }
+            }]
+        },
+        {
+            name: 'techStack',
+            title: 'Technologies used',
+            type: 'array',
+            of: [
+                {
+                    type: 'reference',
+                    to: [
+                        { type: 'skills' }
+                    ]
+                }
+            ]
         }
     ]
 }
