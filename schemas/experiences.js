@@ -14,6 +14,11 @@ export default{
         type: 'string'
       },
       {
+        name: 'companyWebsite',
+        title: 'Company website',
+        type: 'string'
+      },
+      {
         name: 'startDate',
         title: 'Start Date',
         type: 'date',
